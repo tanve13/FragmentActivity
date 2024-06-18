@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/llFragment"
     android:layout_height="match_parent"
     tools:context=".lifecyclefragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/increment"
+      android:layout_marginTop="30sp"
+      android:id="@+id/btnIncrement"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btnReset"
+        android:layout_toEndOf="@+id/btnIncrement"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decrement"
+        android:layout_marginTop="30sp"
+        android:layout_toEndOf="@+id/btnReset"
+        android:id="@+id/btnDecrement"/>
 
-</FrameLayout>
+
+</RelativeLayout>

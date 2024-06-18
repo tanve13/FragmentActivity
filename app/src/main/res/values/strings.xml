@@ -2,4 +2,11 @@
     <string name="app_name">Fragment Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="number">Number</string>
+    <string name="increament">Increament</string>
+    <string name="increment">Increment</string>
+    <string name="reset">Reset</string>
+    <string name="decrement">Decrement</string>
 </resources>
